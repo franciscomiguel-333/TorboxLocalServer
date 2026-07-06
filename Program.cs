@@ -68,6 +68,7 @@ app.MapGet("/", async (HttpContext ctx) =>
     {
         var torrentId = torrent.GetProperty("id").GetInt64();
         if (!torrent.TryGetProperty("files", out var fileList)) continue;
+        if (fileList.ValueKind != JsonValueKind.Array) continue;
 
         foreach (var file in fileList.EnumerateArray())
         {
