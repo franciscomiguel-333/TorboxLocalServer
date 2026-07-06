@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <Target Name="GenerateExampleConfig" AfterTargets="Build">
+  <Exec Command="powershell -ExecutionPolicy Bypass -File &quot;$(ProjectDir)generate-example.ps1&quot;" Condition="Exists('appsettings.json')" WorkingDirectory="$(ProjectDir)" />
+</Target>
+<ItemGroup>
+  <Content Remove="appsettings.example.json" />
+</ItemGroup>
+</Project>
