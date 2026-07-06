@@ -1,0 +1,42 @@
+## .NET Core / ASP.NET Core
+bin/
+obj/
+out/
+release/
+publish/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## Publish output
+*.pubxml
+*.pubxml.user
+
+## Config con datos sensibles (API key, credenciales)
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+
+## Variables de entorno (Docker)
+.env
+
+## Logs
+*.log
+logs/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Archivos temporales
+*.tmp
+*.cache

@@ -1,0 +1,11 @@
+name: torbox-tinfoil-server-csharp
+services:
+  torbox-tinfoil-server:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - TorBox__ApiKey=${TORBOX_API_KEY}
+      - TorBox__AuthUser=${AUTH_USER}
+      - TorBox__AuthPass=${AUTH_PASS}
+    restart: unless-stopped

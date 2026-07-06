@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RKoY7KJG7ow=",
+  "dgSpecHash": "ixDOtndsr6E=",
   "success": true,
   "projectFilePath": "C:\\Users\\cuerv\\Documents\\TinfoilServer\\net\\TorBoxTinfoilServer\\TorBoxTinfoilServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cuerv\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.9\\microsoft.net.illink.tasks.10.0.9.nupkg.sha512",
+    "C:\\Users\\cuerv\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.9\\microsoft.netcore.app.runtime.win-x64.10.0.9.nupkg.sha512",
+    "C:\\Users\\cuerv\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.9.nupkg.sha512",
+    "C:\\Users\\cuerv\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.9\\microsoft.aspnetcore.app.runtime.win-x64.10.0.9.nupkg.sha512"
+  ],
   "logs": []
 }
